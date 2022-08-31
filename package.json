@@ -2,12 +2,11 @@
   "name": "pg-js-02",
   "version": "1.0.0",
   "description": "En este desafío tienes un array de números, usando la función map debes retornar todos los números del array multiplicados por dos.",
-  "source": "index.html",
-  "type": "module",
+  "source": "./src/index.html",
   "scripts": {
     "dev": "parcel",
     "build": "parcel build",
-    "test": "jest solution"
+    "test": "jest solution/challenge"
   },
   "repository": {
     "type": "git",
@@ -21,13 +20,10 @@
   },
   "homepage": "https://github.com/PlatziLabs/pg-js-02#readme",
   "devDependencies": {
-    "@babel/core": "^7.18.13",
-    "@babel/preset-env": "^7.18.10",
-    "babel-jest": "^29.0.1",
-    "jest": "^29.0.1",
-    "parcel": "^2.7.0"
-  },
-  "jest":{
-    "testEnvironment": "jsdom"
+    "@babel/core": "7.18.13",
+    "@babel/preset-env": "7.18.10",
+    "babel-jest": "29.0.1",
+    "jest": "29.0.1",
+    "parcel": "2.7.0"
   }
 }
