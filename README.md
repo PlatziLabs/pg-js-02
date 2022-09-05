@@ -1,6 +1,6 @@
 En este desafío debes retornar el string "Hello, World!", con 2 segundos de retraso usando `setTimeout` y se debe ejecutar mediante una promesa.
 
-> En este reto  debes usar la función `setTimeout` con el namespace `window` para poder monitorear su uso en la ejecución de pruebas, ejemplo:
+> Nota: Debes usar la función `setTimeout` con el namespace `window` para poder monitorear su uso en la ejecución de pruebas, ejemplo:
 
 ```js
 window.setTimeout(() => {
