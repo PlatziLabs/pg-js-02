@@ -18,7 +18,7 @@ runCode();
 
 Output
 
-```sh
+```bash
 # after => 2s
 "Hello, World!"
 ```
