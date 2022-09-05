@@ -13,7 +13,8 @@ La solución debería tener un input y output como los siguientes:
 Input
 
 ```js
-runCode().then(response => console.log(response));
+runCode()
+.then(response => console.log(response));
 ```
 
 Output
