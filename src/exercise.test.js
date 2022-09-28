@@ -11,7 +11,7 @@ describe('tests', () => {
     expect(rta).toBe("Hello, World!");
   });
 
-  it("should return call setTimeout with 2s", async () => {
+  it("should call setTimeout with 2s", async () => {
     const spy = jest.spyOn(global, "setTimeout");
 
     const rta = await runCode();
